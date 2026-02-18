@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comienza tu proyecto | AXIS3D</title>
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/pages.css" />
+  </head>
+  <body data-page="comienza">
+    <div class="page-transition" data-page-transition></div>
+    <header class="topbar glass"><div class="container nav-shell"><a href="index.html"><img src="assets/img/logo-white.svg" alt="AXIS3D" class="logo" /></a><nav class="nav-links"><a class="nav-link" href="portafolio.html" data-nav="portafolio" data-page="portafolio">Portafolio</a><a class="nav-link" href="servicios.html" data-nav="servicios" data-page="servicios">Servicios</a><a class="nav-link" href="sobre.html" data-nav="sobre" data-page="sobre">Sobre Axis3D</a></nav><a class="btn btn-primary" href="comienza.html" data-nav="comienza">Comienza tu proyecto</a><button class="hamburger" data-drawer-open>☰</button></div></header>
+    <aside class="drawer" data-drawer aria-hidden="true"><div class="drawer-backdrop"></div><div class="drawer-panel glass"><button class="hamburger" data-drawer-close>✕</button><nav class="drawer-list"><a href="portafolio.html" data-nav="portafolio">Portafolio</a><a href="servicios.html" data-nav="servicios">Servicios</a><a href="sobre.html" data-nav="sobre">Sobre Axis3D</a><a class="btn btn-primary" href="comienza.html" data-nav="comienza">Comienza tu proyecto</a></nav></div></aside>
+
+    <main class="section">
+      <div class="container">
+        <header class="page-hero reveal"><h1>Comienza tu proyecto</h1><p>Cuéntanos qué necesitas y te respondemos rápido.</p></header>
+
+        <section class="contact-card glass reveal">
+          <form class="form-grid" data-contact-form>
+            <div class="form-grid two-col">
+              <label>Nombre<input class="input" name="nombre" required /></label>
+              <label>WhatsApp / Teléfono<input class="input" name="telefono" required /></label>
+            </div>
+            <label>Correo<input class="input" type="email" name="correo" required /></label>
+            <div class="form-grid two-col">
+              <label>Tipo de proyecto<select class="select" name="tipo"><option>Prototipo</option><option>Refacción</option><option>Producción en serie</option><option>Modelado CAD</option></select></label>
+              <label>Material deseado<select class="select" name="material"><option>PLA</option><option>PETG</option><option>ABS</option><option>Nylon</option><option>No estoy seguro</option></select></label>
+            </div>
+            <label class="file-box">Adjuntar archivo (STL/OBJ/ZIP)<input class="input" type="file" name="archivo" accept=".stl,.obj,.zip" /></label>
+            <label>Comentarios<textarea class="textarea" rows="4" name="comentarios"></textarea></label>
+            <label><input type="checkbox" name="privacidad" /> Acepto aviso de privacidad</label>
+            <button class="btn btn-primary" type="submit">Enviar solicitud</button>
+          </form>
+          <div class="contact-success" data-form-success>
+            ¡Solicitud enviada con éxito! Te contactaremos pronto.
+            <div style="margin-top:.7rem;"><a class="btn btn-secondary" target="_blank" rel="noreferrer" data-form-whatsapp>Enviar por WhatsApp</a></div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer"><div class="container footer-grid"><section><h4 data-config="BUSINESS_NAME">AXIS3D</h4><p data-config="ADDRESS">PON_AQUI_TU_DIRECCION</p></section><section><h4>Contacto</h4><div class="link-list"><a data-config-href="PHONE" href="#" data-config="PHONE">PON_AQUI_TU_TELEFONO</a><a data-config-href="EMAIL" href="#" data-config="EMAIL">PON_AQUI_TU_CORREO</a></div></section><section><h4>Redes</h4><div class="link-list"><a data-config-href="INSTAGRAM_URL" href="#">Instagram</a><a data-config-href="TIKTOK_URL" href="#">TikTok</a><a data-config-href="YOUTUBE_URL" href="#">YouTube</a></div></section></div></footer>
+
+    <a class="btn btn-primary whatsapp-float" data-whatsapp-link>WhatsApp</a>
+
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/transitions.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

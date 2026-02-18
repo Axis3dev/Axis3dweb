@@ -1,26 +1,33 @@
-# AXIS3D Web (Next.js + TypeScript + Tailwind)
+# AXIS3D Sitio Estático (HTML + CSS + JS)
 
-Sitio web plug-and-play para AXIS3D usando App Router.
+Proyecto estático sin frameworks. Funciona abriendo `index.html` directamente en navegador.
 
-## Importante sobre assets
-Este repositorio **solo contiene archivos de texto plano**.
+## Estructura
+- `index.html`
+- `portafolio.html`
+- `servicios.html`
+- `sobre.html`
+- `comienza.html`
+- `assets/css/base.css`
+- `assets/css/components.css`
+- `assets/css/pages.css`
+- `assets/js/config.js`
+- `assets/js/app.js`
+- `assets/js/transitions.js`
+- `assets/js/portfolio.js`
 
-Agrega manualmente estos archivos en `/public`:
+## Configuración Plug & Play
+Edita `assets/js/config.js` para:
+- teléfono
+- WhatsApp
+- correo
+- dirección
+- redes
+- maps
 
-- `/public/logo-axis3d-white.svg`
-- `/public/logo-axis3d-color.svg`
-- `/public/hero-axis3d.webp`
-- `/public/taller-axis3d.jpg`
-- `/public/placeholder.jpg`
-
-> Las rutas ya están configuradas en `lib/site.ts`.
-
-## Configuración editable
-- Datos del negocio/contacto/redes: `lib/site.ts`
-- Servicios/proceso/proyectos: `lib/data.ts`
-
-## Scripts
-- `npm install`
-- `npm run dev`
-- `npm run build`
-- `npm run start`
+## Assets esperados (no incluidos)
+Coloca manualmente en `assets/img/`:
+- `logo-white.svg`
+- `logo-color.svg`
+- `hero.webp`
+- `placeholder.jpg`

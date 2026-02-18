@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio | AXIS3D</title>
+    <meta name="description" content="Nuestros últimos proyectos en impresión 3D." />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/pages.css" />
+  </head>
+  <body data-page="portafolio">
+    <div class="page-transition" data-page-transition></div>
+    <header class="topbar glass">
+      <div class="container nav-shell">
+        <a href="index.html" aria-label="Inicio AXIS3D"><img src="assets/img/logo-white.svg" alt="AXIS3D" class="logo" /></a>
+        <nav class="nav-links"><a class="nav-link" href="portafolio.html" data-nav="portafolio" data-page="portafolio">Portafolio</a><a class="nav-link" href="servicios.html" data-nav="servicios" data-page="servicios">Servicios</a><a class="nav-link" href="sobre.html" data-nav="sobre" data-page="sobre">Sobre Axis3D</a></nav>
+        <a class="btn btn-primary" href="comienza.html" data-nav="comienza">Comienza tu proyecto</a><button class="hamburger" data-drawer-open aria-label="Abrir menú">☰</button>
+      </div>
+    </header>
+    <aside class="drawer" data-drawer aria-hidden="true"><div class="drawer-backdrop"></div><div class="drawer-panel glass"><button class="hamburger" data-drawer-close aria-label="Cerrar menú">✕</button><nav class="drawer-list"><a href="portafolio.html" data-nav="portafolio">Portafolio</a><a href="servicios.html" data-nav="servicios">Servicios</a><a href="sobre.html" data-nav="sobre">Sobre Axis3D</a><a class="btn btn-primary" href="comienza.html" data-nav="comienza">Comienza tu proyecto</a></nav></div></aside>
+
+    <main class="section" data-portfolio-root>
+      <div class="container">
+        <header class="page-hero reveal">
+          <h1>Portafolio</h1>
+          <p>Nuestros últimos proyectos en impresión 3D.</p>
+        </header>
+
+        <div class="filters reveal">
+          <button class="btn btn-secondary filter-btn active" data-filter="Todos">Todos</button>
+          <button class="btn btn-secondary filter-btn" data-filter="Prototipos">Prototipos</button>
+          <button class="btn btn-secondary filter-btn" data-filter="Refacciones">Refacciones</button>
+          <button class="btn btn-secondary filter-btn" data-filter="Industriales">Industriales</button>
+          <button class="btn btn-secondary filter-btn" data-filter="Personalizados">Personalizados</button>
+        </div>
+
+        <div class="grid portfolio-grid">
+          <article class="card glass reveal" data-category="Industriales" data-title="Carcasa para sensor industrial" data-summary="Diseño robusto para ambiente de polvo y vibración." data-material="PETG" data-time="48 horas"><img class="project-thumb" src="assets/img/placeholder.jpg" alt="Carcasa sensor" /><span class="badge">Industriales</span><h3>Carcasa para sensor</h3><button class="btn btn-secondary" data-open-project>Ver proyecto</button></article>
+          <article class="card glass reveal" data-category="Refacciones" data-title="Engranaje de repuesto" data-summary="Recuperación funcional de mecanismo descontinuado." data-material="Nylon" data-time="72 horas"><img class="project-thumb" src="assets/img/placeholder.jpg" alt="Engranaje" /><span class="badge">Refacciones</span><h3>Engranaje de repuesto</h3><button class="btn btn-secondary" data-open-project>Ver proyecto</button></article>
+          <article class="card glass reveal" data-category="Industriales" data-title="Fixture de ensamble" data-summary="Dispositivo para acelerar armado y control dimensional." data-material="ABS" data-time="36 horas"><img class="project-thumb" src="assets/img/placeholder.jpg" alt="Fixture" /><span class="badge">Industriales</span><h3>Fixture de ensamble</h3><button class="btn btn-secondary" data-open-project>Ver proyecto</button></article>
+          <article class="card glass reveal" data-category="Personalizados" data-title="Soporte de cámara custom" data-summary="Montura ligera para uso extremo en exteriores." data-material="PETG" data-time="24 horas"><img class="project-thumb" src="assets/img/placeholder.jpg" alt="Soporte" /><span class="badge">Personalizados</span><h3>Soporte custom</h3><button class="btn btn-secondary" data-open-project>Ver proyecto</button></article>
+          <article class="card glass reveal" data-category="Prototipos" data-title="Enclosure IoT" data-summary="Iteración de prototipo con anclajes y ventilación optimizados." data-material="PLA Pro" data-time="36 horas"><img class="project-thumb" src="assets/img/placeholder.jpg" alt="Enclosure" /><span class="badge">Prototipos</span><h3>Enclosure IoT</h3><button class="btn btn-secondary" data-open-project>Ver proyecto</button></article>
+          <article class="card glass reveal" data-category="Refacciones" data-title="Maneral para válvula especial" data-summary="Pieza ergonómica resistente para operación continua." data-material="ASA" data-time="60 horas"><img class="project-thumb" src="assets/img/placeholder.jpg" alt="Maneral" /><span class="badge">Refacciones</span><h3>Maneral de válvula</h3><button class="btn btn-secondary" data-open-project>Ver proyecto</button></article>
+          <article class="card glass reveal" data-category="Prototipos" data-title="Mockup dispositivo médico" data-summary="Modelo visual funcional para validación con usuarios." data-material="Resina" data-time="72 horas"><img class="project-thumb" src="assets/img/placeholder.jpg" alt="Mockup" /><span class="badge">Prototipos</span><h3>Mockup médico</h3><button class="btn btn-secondary" data-open-project>Ver proyecto</button></article>
+          <article class="card glass reveal" data-category="Personalizados" data-title="Trofeo geométrico premium" data-summary="Diseño paramétrico con acabado de alto impacto visual." data-material="PLA Silk" data-time="30 horas"><img class="project-thumb" src="assets/img/placeholder.jpg" alt="Trofeo" /><span class="badge">Personalizados</span><h3>Trofeo geométrico</h3><button class="btn btn-secondary" data-open-project>Ver proyecto</button></article>
+        </div>
+      </div>
+    </main>
+
+    <div class="modal" data-project-modal aria-hidden="true">
+      <div class="modal-backdrop"></div>
+      <article class="modal-card glass">
+        <button class="btn btn-secondary" data-modal-close>Cerrar</button>
+        <div class="modal-grid">
+          <img class="project-thumb" src="assets/img/placeholder.jpg" alt="Detalle de proyecto" />
+          <section>
+            <h2 data-modal-title>Proyecto</h2>
+            <p data-modal-summary></p>
+            <p><strong>Material:</strong> <span data-modal-material>-</span></p>
+            <p><strong>Tiempo:</strong> <span data-modal-time>-</span></p>
+            <p><strong>Categoría:</strong> <span data-modal-category>-</span></p>
+            <a class="btn btn-primary" href="comienza.html" data-nav="comienza">Comienza tu proyecto</a>
+          </section>
+        </div>
+      </article>
+    </div>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <section><h4 data-config="BUSINESS_NAME">AXIS3D</h4><p data-config="ADDRESS">PON_AQUI_TU_DIRECCION</p></section>
+        <section><h4>Navegación</h4><div class="link-list"><a href="servicios.html" data-nav="servicios">Servicios</a><a href="sobre.html" data-nav="sobre">Sobre Axis3D</a><a href="comienza.html" data-nav="comienza">Comienza tu proyecto</a></div></section>
+        <section><h4>Redes</h4><div class="link-list"><a data-config-href="INSTAGRAM_URL" href="#">Instagram</a><a data-config-href="TIKTOK_URL" href="#">TikTok</a><a data-config-href="YOUTUBE_URL" href="#">YouTube</a></div></section>
+      </div>
+    </footer>
+
+    <a class="btn btn-primary whatsapp-float" data-whatsapp-link data-whatsapp-message="Hola AXIS3D, quiero cotizar una pieza.">WhatsApp</a>
+
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/transitions.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/portfolio.js"></script>
+  </body>
+</html>
